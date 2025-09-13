@@ -1,0 +1,119 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fafbfc;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    color: #23272f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.04);
+    padding: 0.5rem 0;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nav {
+    height: 36px;
+    margin-right: 12px;
+}
+
+.site-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #e94560;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.centered {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.main-logo {
+    width: 90px;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: #6b7280;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #1f2937;
+    font-weight: 600;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.feature-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(44,62,80,0.08);
+    padding: 2rem 1.5rem;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.12s;
+}
+
+.feature-card:hover {
+    transform: translateY(-7px) scale(1.025);
+    box-shadow: 0 8px 32px rgba(233,69,96,0.14);
+}
+
+.feature-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    color: #e94560;
+    margin-bottom: 0.7rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.feature-card p {
+    color: #4b5563;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer {
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+    background: none;
+    font-size: 1rem;
+    color: #6b7280;
+    margin-top: auto;
+}
